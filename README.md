@@ -1,5 +1,5 @@
 # Introduction to Software Engineering Group Project
-Contributors: 
+Contributors:<br/>
   Jacob Hall-Burns (DragonsLordJacob - jacob.hallburns02@gmail.com) and (jhallburns2021 - jhallburns2021@my.fit.edu)<br/>
 
 ## Project Decisions
