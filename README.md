@@ -2,7 +2,7 @@
 Contributors:<br/>
   Jacob Hall-Burns (DragonsLordJacob - jacob.hallburns02@gmail.com) and (jhallburns2021 - jhallburns2021@my.fit.edu)<br/>
   Dathan Dixon (Dathan D - ddixon2022@my.fit.edu) and (DaNerdy - dathandixn123@gmail.com)<br/>
-  
+
 
 ## Project Decisions
   ### GUI Interface Decision
@@ -33,3 +33,5 @@ Contributors:<br/>
   Events:<br/>
   Task 1: Set up the Github and Invite team members and Professor/ GSA.<br/>
   Task 2: Comming up with Requirements for the **Notebook Application**.<br/>
+  Homework:<br/>
+  Learn how Github braches work.<br/>
