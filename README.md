@@ -39,3 +39,5 @@ Contributors:<br/>
   Events:<br/>
   Task 1: Set up the Github and Invite team members and Professor/ GSA.<br/>
   Task 2: Comming up with Requirements for the **Notebook Application**.<br/>
+  Homework:<br/>
+  Learn how Github braches work.<br/>
