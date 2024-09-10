@@ -25,7 +25,7 @@ Contributors:<br/>
   to five (5) and voted on the project. We ended up deciding on a **Notebook Application** using **Python**.<br/>
   ### Group Meeting 2
   Contributor: Jacob Hall-Burns<br/>
-  Date: September 10th, 2024: 11:00 -  EST<br/>
+  Date: September 10th, 2024: 11:00 - 12:45 EST<br/>
   Members Present:<br/>
   Jacob Hall-Burns<br/>
   Vincenzo Barager<br/>
