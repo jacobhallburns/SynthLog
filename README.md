@@ -1,6 +1,6 @@
 # Introduction to Software Engineering Group Project
 Contributors: 
-  Jacob Hall-Burns (DragonsLordJacob)<br/>
+  Jacob Hall-Burns (DragonsLordJacob - jacob.hallburns02@gmail.com) and (jhallburns2021 - jhallburns2021@my.fit.edu)<br/>
 
 ## Project Decisions
   ### GUI Interface Decision
@@ -29,5 +29,5 @@ Contributors:
   Vincenzo Barager<br/>
   Dathan Dixon<br/>
   Events:<br/>
-  Task 1: Set up the Github and Invite team members and Professor/ GSA.
-  
+  Task 1: Set up the Github and Invite team members and Professor/ GSA.<br/>
+  Task 2: Comming up with Requirements for the **Notebook Application**.<br/>
