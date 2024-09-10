@@ -10,3 +10,24 @@ Contributors:
   This video introduced me to the Python GUI tools:<br/>
 	  [Tkinter](https://docs.python.org/3/library/tkinter.html) - Part of the Python standard library.<br/>
 	  [CustomTkinter](https://customtkinter.tomschimansky.com/) - Allows for a more modern GUI design based on Tkinter.<br/>
+## Group meeting
+  ### Group Meeting 1
+  Contributor: Jacob Hall-Burns<br/>
+  Date: August 29th, 2024: 11:00 - 13:30 EST<br/>
+  Members Present:<br/>
+  Jacob Hall-Burns<br/>
+  Vincenzo Barager<br/>
+  Dathan Dixon<br/>
+  Events:<br/>
+  Group project discussion as held. We discussed 10 different projects, and multiple different programming languages. We narrowed the number of projects
+  to five (5) and voted on the project. We ended up deciding on a **Notebook Application** using **Python**.<br/>
+  ### Group Meeting 2
+  Contributor: Jacob Hall-Burns<br/>
+  Date: September 10th, 2024: 11:00 -  EST<br/>
+  Members Present:<br/>
+  Jacob Hall-Burns<br/>
+  Vincenzo Barager<br/>
+  Dathan Dixon<br/>
+  Events:<br/>
+  Task 1: Set up the Github and Invite team members and Professor/ GSA.
+  
