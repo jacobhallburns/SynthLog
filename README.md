@@ -1,14 +1,8 @@
 # Introduction to Software Engineering Group Project
-<<<<<<< HEAD
-Contributors: 
-  Jacob Hall-Burns (DragonsLordJacob)<br/>
-  Vincenzo Barager (Dvizee - vincenzobarager@gmail.com)<br/>
-=======
 Contributors:<br/>
   Jacob Hall-Burns (DragonsLordJacob - jacob.hallburns02@gmail.com) and (jhallburns2021 - jhallburns2021@my.fit.edu)<br/>
   Dathan Dixon (Dathan D - ddixon2022@my.fit.edu) and (DaNerdy - dathandixn123@gmail.com)<br/>
-  
->>>>>>> 0f534712ecd03ebec5b8f439c37f127ea2671825
+  Vincenzo Barager (Dvizee - vincenzobarager@gmail.com)<br/>
 
 ## Project Decisions
   ### GUI Interface Decision
