@@ -1,6 +1,7 @@
 # Introduction to Software Engineering Group Project
 Contributors: 
   Jacob Hall-Burns (DragonsLordJacob)<br/>
+  Vincenzo Barager (Dvizee - vincenzobarager@gmail.com)<br/>
 
 ## Project Decisions
   ### GUI Interface Decision
