@@ -33,5 +33,22 @@ Contributors:<br/>
   Events:<br/>
   Task 1: Set up the Github and Invite team members and Professor/ GSA.<br/>
   Task 2: Comming up with Requirements for the **Notebook Application**.<br/>
+  Requirement 1: GUI that has minimize, Maximize and Restore, and close functionality. - Handled by default with custometkinter.<br/>
+  Requirement 2: Ability to show directory of notebooks.<br/>
+  Requirement 3: Ability to create a new notebook.<br/>
+  Requirement 4: Ability to create a new notepage.<br/>
+  Requirement 5: Ability to sketch in a canvas.<br/>
+  Requirement 6: Ability to edit a notepage.<br/>
+  **Requirement Breakdown**
+  Requirement 2 and 3:<br/>
+  Ability to show the directory of notebooks and create new notebooks.<br/>
+  Creation of new folders in the main folder of the **Notebook Application** and the ability to view these notebooks within the application.<br/>
+  Requirement 5:<br/>
+  Ability to open a canvas and sketch in it using a mouse.<br/>
+  Requirement 4 and 6:<br/>
+  Ability to open a new notepage and edit that notepage.<br/>
   Homework:<br/>
-  Learn how Github braches work.<br/>
+  Learn how Github braches work. - all<br/>
+  Start working on the notebook directory - Requirement 2 and 3 - Vincenzo Barager.<br/>
+  Start working on a sketch pad for drawing with a mouse - Requirement 5 - Dathan Dixon.<br/>
+  Start working on a basic text editor - Requirement 4 and 6 -Jacob Hall-Burns.<br/>
