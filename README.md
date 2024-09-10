@@ -39,7 +39,7 @@ Contributors:<br/>
   Requirement 4: Ability to create a new notepage.<br/>
   Requirement 5: Ability to sketch in a canvas.<br/>
   Requirement 6: Ability to edit a notepage.<br/>
-  **Requirement Breakdown**
+  **Requirement Breakdown**<br/>
   Requirement 2 and 3:<br/>
   Ability to show the directory of notebooks and create new notebooks.<br/>
   Creation of new folders in the main folder of the **Notebook Application** and the ability to view these notebooks within the application.<br/>
@@ -47,6 +47,7 @@ Contributors:<br/>
   Ability to open a canvas and sketch in it using a mouse.<br/>
   Requirement 4 and 6:<br/>
   Ability to open a new notepage and edit that notepage.<br/>
+  Task 3: Distributing work load. Work on feeling out the difficulty of requirements.<br/>
   Homework:<br/>
   Learn how Github braches work. - all<br/>
   Start working on the notebook directory - Requirement 2 and 3 - Vincenzo Barager.<br/>
