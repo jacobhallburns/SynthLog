@@ -62,6 +62,6 @@ Contributors:<br/>
   Jacob Hall-Burns<br/>
   Dathan Dixon<br/>
   Events:<br/>
-  Task 1: Invite new team member<br/>
-  Task 2: Complete group assigment 1<br/>
+  Task 1: Reach out to Ian a second time and try to get a hold of them.<br/>
+  Task 2: Complete group assigment 1 by Monday, September 16, 2024.<br/>
   
