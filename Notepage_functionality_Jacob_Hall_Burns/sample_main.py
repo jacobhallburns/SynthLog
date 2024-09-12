@@ -13,9 +13,10 @@ app.title("Note Book")
 
 # tool bar
 menu = CTkTitleMenu(app)
-button_1 = menu.add_cascade("File")
-button_2 = menu.add_cascade("Edit")
-button_3 = menu.add_cascade("Search")
+button_1 = menu.add_cascade("Folder")
+button_2 = menu.add_cascade("File")
+button_3 = menu.add_cascade("Edit")
+button_4 = menu.add_cascade("Search")
 
 dropdown1 = CustomDropdownMenu(widget=button_1)
 dropdown1.add_option(option="Open", command=lambda: print("Open"))

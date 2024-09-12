@@ -65,4 +65,9 @@ Contributors:<br/>
   Events:<br/>
   Task 1: Reach out to Ian a second time and try to get a hold of them.<br/>
   Task 2: Complete group assigment 1 by Monday, September 16, 2024.<br/>
+
+  ## Functionality
+  ### Title Tool Bar Menu
+  Contributor: Jacob Hall-Burns<br/>
+  Needed Categories <br/>
   
