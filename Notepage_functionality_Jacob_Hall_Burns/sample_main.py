@@ -9,33 +9,34 @@ customtkinter.set_default_color_theme("blue")
 # Our app frame
 app = customtkinter.CTk()
 app.geometry("720x480")
-app.title("Note Book")
+app.title("SynthLog")
 
 # tool bar
-menu = CTkTitleMenu(app)
+menu = CTkTitleMenu(app, x_offset=130)
 button_1 = menu.add_cascade("Folder")
 button_2 = menu.add_cascade("File")
-button_3 = menu.add_cascade("Edit")
-button_4 = menu.add_cascade("Search")
+# File Dropdown for File
+dropdown2 = CustomDropdownMenu(widget=button_2)
+dropdown2.add_option(option="New")
+dropdown2.add_separator()
+dropdown2.add_option(option="Open")
+dropdown2.add_separator()
+sub_menu1 = dropdown2.add_submenu("Save")
+sub_menu1.add_option(option="Save")
+sub_menu1.add_option(option="Save As...")
+sub_menu1.add_option(option="Save As A Copy...")
 
-dropdown1 = CustomDropdownMenu(widget=button_1)
-dropdown1.add_option(option="Open", command=lambda: print("Open"))
-dropdown1.add_option(option="Save")
+dropdown2.add_separator()
+
+sub_menu2 = dropdown2.add_submenu("Export As")
+sub_menu2.add_option(option=".TXT")
+sub_menu2.add_option(option=".PDF")
 
 
 
 
 
 
-# Button test
-def button_event():
-   label.configure(text="Pressed")
-# makes button
-button = customtkinter.CTkButton(app, text="Button", command=button_event)
-button.pack(pady=80)
-# makes label when button is pressedS
-label = customtkinter.CTkLabel(app, text="")
-label.pack(pady=20)
 
 
 # Run app until closed
