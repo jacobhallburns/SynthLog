@@ -13,8 +13,10 @@ app.title("Note Book")
 # Button test
 def button_event():
    label.configure(text="Pressed")
+# makes button
 button = customtkinter.CTkButton(app, text="Button", command=button_event)
 button.pack(pady=80)
+# makes label when button is pressedS
 label = customtkinter.CTkLabel(app, text="")
 label.pack(pady=20)
 
