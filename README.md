@@ -54,3 +54,4 @@ Contributors:<br/>
   Start working on the notebook directory - Requirement 2 and 3 - Vincenzo Barager.<br/>
   Start working on a sketch pad for drawing with a mouse - Requirement 5 - Dathan Dixon.<br/>
   Start working on a basic text editor - Requirement 4 and 6 -Jacob Hall-Burns.<br/>
+  ### Group Meeting 3
