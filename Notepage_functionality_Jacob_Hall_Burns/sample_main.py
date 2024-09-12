@@ -18,7 +18,8 @@ button_2 = menu.add_cascade("Edit")
 button_3 = menu.add_cascade("Search")
 
 dropdown1 = CustomDropdownMenu(widget=button_1)
-dropdown1.add_option(option)
+dropdown1.add_option(option="Open", command=lambda: print("Open"))
+dropdown1.add_option(option="Save")
 
 
 
