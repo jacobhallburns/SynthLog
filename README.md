@@ -55,3 +55,13 @@ Contributors:<br/>
   Start working on a sketch pad for drawing with a mouse - Requirement 5 - Dathan Dixon.<br/>
   Start working on a basic text editor - Requirement 4 and 6 -Jacob Hall-Burns.<br/>
   ### Group Meeting 3
+  Contributor: Vincenzo Barager<br/>
+  Date: September 12th, 2024: 12:00 - 1:45 EST<br/>
+  Members Present:<br/>
+  Vincenzo Barager<br/>
+  Jacob Hall-Burns<br/>
+  Dathan Dixon<br/>
+  Events:<br/>
+  Task 1: Invite new team member<br/>
+  Task 2: Complete group assigment 1<br/>
+  
