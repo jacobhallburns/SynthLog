@@ -17,6 +17,8 @@ button_1 = menu.add_cascade("File")
 button_2 = menu.add_cascade("Edit")
 button_3 = menu.add_cascade("Search")
 
+dropdown1 = CustomDropdownMenu(widget=button_1)
+dropdown1.add_option(option)
 
 
 
