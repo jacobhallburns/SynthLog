@@ -27,5 +27,12 @@ dropdown2.add_separator()
 sub_menu2 = dropdown2.add_submenu("Export As")
 sub_menu2.add_option(option=".TXT")
 sub_menu2.add_option(option=".PDF")
+
+# Dropdown for Folder
+dropdown = CustomDropdownMenu(widget=button_1)
+dropdown.add_option(option="New")
+dropdown.add_separator()
+dropdown.add_option(option="Open")
+
 # Run app until closed
 app.mainloop()
