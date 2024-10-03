@@ -1,8 +1,8 @@
-import tkinter
+import tkinter as tk
 from tkinter import filedialog
 
 def file_dialog_cmd():
-   root = tkinter.Tk()
+   root = tk.Tk()
    root.withdraw()
    file_path = filedialog.askopenfilename(title="Open File")
    root.destroy()
