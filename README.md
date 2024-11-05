@@ -65,7 +65,16 @@ Contributors:<br/>
   Events:<br/>
   Task 1: Reach out to Ian a second time and try to get a hold of them.<br/>
   Task 2: Complete group assigment 1 by Monday, September 16, 2024.<br/>
-
+### Group Meeting 4
+  Contributor: Vincenzo Barager<br/>
+  Date: November 5th, 2024: 11:30 - 12:15 EST<br/>
+  Members Present:<br/>
+  Vincenzo Barager<br/>
+  Jacob Hall-Burns<br/>
+  Dathan Dixon<br/>
+  Events:<br/>
+  Task 1: Discuss next steps for project. <br/>
+  Task 2: Delegate tasks <br/>
   ## Functionality
   ### Title Tool Bar Menu
   Contributor: Jacob Hall-Burns<br/>
