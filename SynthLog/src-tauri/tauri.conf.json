@@ -1,20 +1,22 @@
 {
-  "$schema": "https://schema.tauri.app/config/2",
+  "$schema": "https://schema.tauri.app/config/2.0.0-rc",
   "productName": "synthlog",
   "version": "0.1.0",
-  "identifier": "com.synthlog.app",
+  "identifier": "com.synthlog.tauri",
   "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:3000",
     "beforeDevCommand": "pnpm dev",
-    "beforeBuildCommand": "pnpm build",
-    "devUrl": "http://localhost:5173/",
-    "frontendDist": "../dist"
+    "beforeBuildCommand": "pnpm build"
   },
   "app": {
     "windows": [
       {
         "title": "synthlog",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "resizable": true,
+        "fullscreen": false
       }
     ],
     "security": {
