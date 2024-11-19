@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2.0.0-rc",
-  "productName": "synthlog",
+  "productName": "Synthlog",
   "version": "0.1.0",
   "identifier": "com.synthlog.tauri",
   "build": {
