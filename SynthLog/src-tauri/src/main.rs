@@ -1,10 +1,13 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+use std::env;
 use std::fs;
 #[tauri::command]
 fn create_folder(folder_name: String) -> Result<(), String> {
-  let base_path = "./notebooks";
-  let folder_path = format!("{}{}", base_path, folder_name);
+  let base_path = env::current_dir()
+    .map_err(|e| format!("Failed to get current directory: {}", e))?
+    .join("notebooks");
+  let folder_path = base_path.join(folder_name);
 
   if let Err(e) = fs::create_dir_all(&folder_path) {
     return Err(format!("Failed to create folder: {}", e));

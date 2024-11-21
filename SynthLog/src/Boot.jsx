@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Button, Menu, MenuItem, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import synthlogLogo from './assets/SynthLog.png';
-import { invoke } from '@tauri-apps/api';
+import { core } from '@tauri-apps/api';
 import { useNavigate  } from 'react-router-dom';
 import './Boot.css';
-
+import * as TauriAPI from '@tauri-apps/api';
+console.log(TauriAPI);
 function Boot() {
    const [anchorEl, setAnchorEl] = useState(null);
    const [dialogOpen, setDialogOpen] = useState(false);
@@ -33,21 +34,22 @@ function Boot() {
 
    const handleCreateNotebook = async () => {
       if (!notebookName.trim()) {
-         alert('{lease enter a notebook name.');
-         return;
+        alert("Please enter a notebook name.");
+        return;
       }
-
-      try{
-         // Rust Backend
-         await invoke('create_folder', {folderName: notebookName});
-         // Navigate to the new page w/ notebook name as state
-         navigate('/notebook', { state: { notebookName } });
+    
+      try {
+        console.log("Invoking create_folder with:", notebookName);
+        await core.invoke("create_folder", { folder_name: notebookName }); // Ensure the parameter name matches Rust
+        console.log("Folder creation successful");
+        navigate("/notebook", { state: { notebookName } });
       } catch (error) {
-         console.error('Error creating notebook:', error);
-         alert('Failed to create notebook.');
+        console.error("Error creating notebook:", error); // Log the full error object
+        alert(`Failed to create notebook: ${error}`);
       }
+    
       handleDialogClose();
-   };
+    };
 
    return (
       <>
