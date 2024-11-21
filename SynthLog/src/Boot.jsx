@@ -40,7 +40,7 @@ function Boot() {
     
       try {
         console.log("Invoking create_folder with:", notebookName);
-        await core.invoke("create_folder", { folder_name: notebookName }); // Ensure the parameter name matches Rust
+        await core.invoke("create_folder", { folderName: notebookName }); // Ensure the parameter name matches Rust
         console.log("Folder creation successful");
         navigate("/notebook", { state: { notebookName } });
       } catch (error) {
