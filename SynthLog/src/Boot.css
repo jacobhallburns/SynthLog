@@ -9,3 +9,19 @@
    width: 500px;
    border-radius: 10px;
 } 
+.AppBackground {
+   background: url('./assets/welcomescreen.png') no-repeat center center fixed;
+   background-size: contain;
+   width: 100vw; 
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+}
+.ButtonContainer {
+   position: absolute; 
+   top: 80%; 
+   left: 70%; 
+   transform: translate(-50%, -50%); 
+   z-index: 10; 
+}

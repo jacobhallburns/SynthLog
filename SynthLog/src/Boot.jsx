@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button, Menu, MenuItem, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
-import synthlogLogo from './assets/SynthLog.png';
+import synthlogLogo from './assets/welcomescreen.png';
 import { core } from '@tauri-apps/api';
 import { useNavigate  } from 'react-router-dom';
 import './Boot.css';
@@ -52,14 +52,22 @@ function Boot() {
     };
 
    return (
-      <>
-         <div>
+      <div className="AppBackground">
+         <div className="ButtonContainer">
+         {/*<div id="root">
             <img src={synthlogLogo} alt="SynthLog Logo" className="SynthLogLogo"/>
-         </div>
+         </div> */}
          <div>
             <Button 
                variant="contained"
                onClick={handleClick}
+               sx={{
+                  backgroundColor: '#28a745', 
+                  color: 'white', 
+                  '&:hover': {
+                      backgroundColor: '#218838', 
+                  },
+              }}
             >
                Open Notebook
             </Button>
@@ -68,7 +76,7 @@ function Boot() {
                anchorEl={anchorEl}
                open={Boolean(anchorEl)}
                onClose={handleClose}
-               sx={{ '& .MuiPaper-root': { backgroundColor: '#2f5994', borderRadius: '8px' } }}
+               sx={{ '& .MuiPaper-root': { backgroundColor: '#28a745', borderRadius: '8px' } }}
             >
                <MenuItem 
                   onClick={handleDialogOpen} 
@@ -83,6 +91,7 @@ function Boot() {
                      Open Notebook
                </MenuItem>
             </Menu>
+            </div>
          </div>
 
          <Dialog open={dialogOpen} onClose = {handleDialogClose}>
@@ -106,7 +115,7 @@ function Boot() {
                </Button>
             </DialogActions>
          </Dialog>       
-      </>
+      </div>
    );
 }
 
