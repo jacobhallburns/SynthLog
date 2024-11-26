@@ -1,24 +1,17 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import { invoke } from '@tauri-apps/api';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Boot from './boot.jsx';
-
-function Notebook({ location }) {
-  const { state } = location || {};
-  const notebookName = state?.notebookName || 'Unnamed Notebook';
-
-  return <div>Welcome to your notebook: {notebookName} </div>;
-}
+import Notebook from './Notebook.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Boot />} />
         <Route path="/notebook" element={<Notebook />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 );

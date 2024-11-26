@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Button, Menu, MenuItem, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
-import synthlogLogo from './assets/welcomescreen.png';
 import { core } from '@tauri-apps/api';
 import { useNavigate  } from 'react-router-dom';
 import './Boot.css';
-import * as TauriAPI from '@tauri-apps/api';
-console.log(TauriAPI);
+
 function Boot() {
    const [anchorEl, setAnchorEl] = useState(null);
    const [dialogOpen, setDialogOpen] = useState(false);
@@ -54,9 +52,6 @@ function Boot() {
    return (
       <div className="AppBackground">
          <div className="ButtonContainer">
-         {/*<div id="root">
-            <img src={synthlogLogo} alt="SynthLog Logo" className="SynthLogLogo"/>
-         </div> */}
          <div>
             <Button 
                variant="contained"
