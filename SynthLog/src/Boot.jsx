@@ -18,35 +18,16 @@ function Boot() {
    const handleClose = () => {
       setAnchorEl(null);
    };
-
-   // Dialog Handlers
-   const handleDialogOpen = () => {
-      setDialogOpen(true);
-      handleClose();
-   };
    
    const handleDialogClose = () => {
       setDialogOpen(false);
       setNotebookName('');
    }
-
-   const handleCreateNotebook = async () => {
-      if (!notebookName.trim()) {
-        alert("Please enter a notebook name.");
-        return;
-      }
-    
-      try {
-        console.log("Invoking create_folder with:", notebookName);
-        await core.invoke("create_folder", { folderName: notebookName }); // Ensure the parameter name matches Rust
-        console.log("Folder creation successful");
-        navigate("/notebook", { state: { notebookName } });
-      } catch (error) {
-        console.error("Error creating notebook:", error); // Log the full error object
-        alert(`Failed to create notebook: ${error}`);
-      }
-    
-      handleDialogClose();
+   const handleSketchpad = () => {
+      navigate("/Sketchpad")
+   }
+   const handleNotebook = async () => {
+      navigate("/Notebook")
     };
 
    return (
@@ -64,7 +45,7 @@ function Boot() {
                   },
               }}
             >
-               Open Notebook
+               Create
             </Button>
 
             <Menu
@@ -74,42 +55,22 @@ function Boot() {
                sx={{ '& .MuiPaper-root': { backgroundColor: '#28a745', borderRadius: '8px' } }}
             >
                <MenuItem 
-                  onClick={handleDialogOpen} 
+                  onClick={handleNotebook} 
                   sx={{color: 'white'}}
                >
-                     Create New Notebook
+                     Notebook
                </MenuItem>
                <MenuItem 
-                  onClick={handleClose} 
+                  onClick={handleSketchpad} 
                   sx={{color: 'white'}}
                >
-                     Open Notebook
+                     Sketchpad
                </MenuItem>
             </Menu>
             </div>
          </div>
 
-         <Dialog open={dialogOpen} onClose = {handleDialogClose}>
-            <DialogTitle>Create New Notebook</DialogTitle>
-            <DialogContent>
-               <TextField
-                  autoFocus
-                  margin='dense'
-                  label="Notebook Name"
-                  fullWidth
-                  value={notebookName}
-                  onChange={(e) => setNotebookName(e.target.value)}
-               />
-            </DialogContent>
-            <DialogActions>
-               <Button onClick={handleDialogClose} color='secondary'>
-                  Cancel
-               </Button> 
-               <Button onClick={handleCreateNotebook} color="primary">
-                  Create
-               </Button>
-            </DialogActions>
-         </Dialog>       
+            
       </div>
    );
 }
