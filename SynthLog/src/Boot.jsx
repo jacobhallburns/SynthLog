@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Button, Menu, MenuItem, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
-import { core } from '@tauri-apps/api';
 import { useNavigate  } from 'react-router-dom';
 import './Boot.css';
 
