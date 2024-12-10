@@ -12,7 +12,7 @@ function Notebook() {
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
-  // Let the user select a directory for notes
+  // Let the user select a directory for notes using the dialog plugin
   const chooseNotesDirectory = async () => {
     try {
       const selectedDir = await open({
@@ -29,10 +29,10 @@ function Notebook() {
     }
   };
 
-  // Load files from the selected directory
+  // Load files from the selected directory using the fs plugin
   const loadFiles = async (dir) => {
     try {
-      const entries = await readDir(dir, { recursive: false });
+      const entries = await readDir(dir, { recursive: false }); // calls to the list_files command in main.rs
       const fileNames = entries.map((entry) => entry.name);
       setFiles(fileNames); // Extract file names
       setFilteredFiles(fileNames); // Initialize filtered list

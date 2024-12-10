@@ -4,7 +4,6 @@
 use std::fs;
 use std::io::Write;
 use tauri::command;
-use tauri_plugin_fs::init;
 
 #[command]
 fn create_file(file_path: String) -> Result<(), String> {
